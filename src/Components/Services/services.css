@@ -1,0 +1,47 @@
+.services {
+    padding: 60px 20px;
+    background-color: #ecf0f1;
+    text-align: center;
+  }
+  
+  .services h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .services-container, .technologies-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .service-item, .technology-item {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .service-item:hover, .technology-item:hover {
+    transform: translateY(-10px);
+  }
+  
+  .service-icon, .technology-icon {
+    font-size: 2em;
+    color: #18bc9c;
+    margin-bottom: 10px;
+  }
+  
+  .service-item h3, .technology-item p {
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  .technology-item p {
+    color: #7f8c8d;
+  }
+  
