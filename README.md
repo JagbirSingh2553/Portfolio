@@ -22,11 +22,6 @@ You can view the live demo of the portfolio [here](https://JagbirSingh2553.githu
   - JavaScript
   - React Icons
 
-- **Backend:**
-  - Node.js
-  - Express
-  - MongoDB
-
 - **Other Tools:**
   - GitHub Pages for deployment
   - gh-pages for managing deployments
