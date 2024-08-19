@@ -34,7 +34,7 @@ const Header = () => {
         </nav>
         <div className="social-icons">
           <a href="https://github.com/JagbirSingh2553" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
-          <a href="https://www.linkedin.com/in/jagbir-singh-96b759189/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
+          <a href="https://www.linkedin.com/in/jagbir-singh-801960281/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
           <a href="https://x.com/jagbir_singh123" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
         </div>
       </div>

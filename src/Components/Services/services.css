@@ -1,47 +1,51 @@
 .services {
-    padding: 60px 20px;
-    background-color: #ecf0f1;
-    text-align: center;
-  }
-  
-  .services h2 {
-    color: #2c3e50;
-    margin-bottom: 20px;
-  }
-  
-  .services-container, .technologies-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-  }
-  
-  .service-item, .technology-item {
-    background-color: white;
-    border-radius: 8px;
-    padding: 20px;
-    width: 250px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    transition: transform 0.3s ease;
-  }
-  
-  .service-item:hover, .technology-item:hover {
-    transform: translateY(-10px);
-  }
-  
-  .service-icon, .technology-icon {
-    font-size: 2em;
-    color: #18bc9c;
-    margin-bottom: 10px;
-  }
-  
-  .service-item h3, .technology-item p {
-    color: #2c3e50;
-    margin-bottom: 10px;
-  }
-  
-  .technology-item p {
-    color: #7f8c8d;
-  }
-  
+  padding: 60px 20px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.services h2 {
+  color: #333;
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+}
+
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.service-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.service-icon {
+  font-size: 3rem;
+  color: #e74c3c;
+  margin-bottom: 15px;
+}
+
+.service-card h3 {
+  margin: 10px 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.service-card p {
+  color: #777;
+  font-size: 1rem;
+  line-height: 1.6;
+}
