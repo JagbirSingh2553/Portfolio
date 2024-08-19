@@ -7,8 +7,9 @@ const Experience = () => {
       <h2>Experience</h2>
       <ul>
         <li>Infosys: System Engineer (March 2021 - Aug 2022)</li>
-        <li>Managed Azure cloud policies and led a five-member team utilizing Agile methodologies.</li>
-        <li>Implemented reporting tools to streamline processes and improve user satisfaction.</li>
+        <li>At Infosys, I managed Azure cloud policy and technology requests within a five-member team utilizing Agile methodologies.</li>
+          <li>I led an Agile project team, which earned an 'Appreciation Award' for excellence in project management and communication. </li>
+          <li>Additionally, I implemented reporting tools to streamline resolution processes, improving user satisfaction and optimizing workflow efficiency.</li>
       </ul>
     </section>
   );
